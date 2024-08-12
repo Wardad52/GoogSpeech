@@ -1,5 +1,4 @@
-#!/bin/bash
-# Suddenly the language switch doesn't work.  WTF?   
+#!/bin/bash 
 xsel | gtts-cli --nocheck - | mpg123 -
 
 
